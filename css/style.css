@@ -130,12 +130,17 @@ nav ul li {
     width: 100%;
     object-fit: cover;
   }
-  
+ 
   .project-title {
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 2rem 0.5rem;
   }
-  
+  .project,project-tile{
+text-decoration: none;
+color: white;
+
+  }
+ 
   .btn {
     display: inline-block;
     padding: 1rem 2rem;
@@ -233,4 +238,31 @@ nav ul li {
       flex-direction: column;
       text-align: center;
     }
+  }
+
+  #contact{
+    justify-content:center ;
+    text-align: center;
+    align-items: center;
+    background-color: #313336;
+    color: white;
+  }
+  .contact-section-header{
+    justify-content:center ;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .contact-details {
+    text-decoration: none;
+    color: white;
+   text-align: center;
+   align-items: center;
+   font-size: 2rem;
+  }
+  .contact-links {
+justify-content: center;
+text-align: center;
+align-items: center;
+font-size: 1rem;
   }
